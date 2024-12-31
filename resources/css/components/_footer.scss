@@ -1,0 +1,21 @@
+@use "../colors";
+@use "../sizing";
+@use "../fonts";
+@use "../typography";
+
+footer {
+	background-color: colors.$grey-950;
+	color: colors.$base;
+	font-family: fonts.$main-font;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: sizing.$s-8;
+	.wrapper {
+		max-width: sizing.$s-md;
+	}
+	h3 a img {
+		max-width: sizing.$s-sm;
+	}
+}

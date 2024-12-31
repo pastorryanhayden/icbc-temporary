@@ -25,9 +25,43 @@ section.essential {
 		font-family: fonts.$main-font;
 		font-weight: 500;
 		font-size: typography.$text-xl;
+		width: sizing.$s-md;
 
 		summary {
 			font-size: typography.$text-2xl;
+			background-color: colors.$green;
+			color: colors.$base;
+			padding: sizing.$s-2;
+
+		}
+		div.answer {
+			padding: sizing.$s-2 sizing.$s-2 sizing.$s-4 sizing.$s-2;
+
+			h4 {
+				margin-top: sizing.$s-4;
+			}
+			a.download {
+				display: flex;
+				margin: 0 auto;
+				align-items: center;
+				justify-content: center;
+				background-color: colors.$red;
+				padding: sizing.$s-2 sizing.$s-6;
+				border-radius: 1000px;
+				text-decoration: none;
+				color: colors.$base;
+				font-weight: 700;
+				text-transform: uppercase;
+				svg {
+				width: sizing.$s-4;
+				height: sizing.$s-4;
+				margin-right: sizing.$s-2;
+			}
+
+				&:hover {
+					background-color: colors.$red-900;
+				}
+			}
 		}
 
 	}

@@ -23,6 +23,7 @@
     @include('includes._camps')
     @include('includes._how')
     @include('includes._essential')
+    @include('includes._footer')
 </main>
 
 

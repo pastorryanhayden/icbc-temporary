@@ -10,7 +10,18 @@ main {
 	width: 100vw;
 	max-width: 100%;
 }
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
 @import url("./components/_hero.scss");
 @import url("./components/_camps.scss");
 @import url("./components/_how.scss");
 @import url("./components/_essential.scss");
+@import url("./components/_footer.scss");
