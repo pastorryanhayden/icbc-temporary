@@ -18,12 +18,14 @@
 </head>
 
 <body>
+    @include('includes._dialog')
     <main>
     @include('includes._hero')
     @include('includes._camps')
     @include('includes._how')
     @include('includes._essential')
     @include('includes._footer')
+
 </main>
 
 

@@ -10,11 +10,12 @@ section.hero {
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
 	padding: sizing.$s-8 sizing.$s-4;
+	gap: sizing.$s-4;	
 	@media (min-width: 820px){
 		grid-template-columns: repeat(12, minmax(0, 1fr));
 		grid-template-rows: 1fr;
 	}
-	gap: sizing.$s-4;	
+	
  	div.text {
  		justify-self: center;
  		align-self: center;

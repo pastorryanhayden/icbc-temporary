@@ -5,15 +5,14 @@
 
 section.essential {
 	width: 100%;
-	background-color: colors.$base;
+	background: url("../../../public/textures/wood.jpg") 400px/400px  repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-		
-		color: colors.$black;
-		padding-left: sizing.$s-8;
-		padding-right: sizing.$s-8;
-		padding-bottom: sizing.$s-8;
+	color: colors.$black;
+	padding-left: sizing.$s-8;
+	padding-right: sizing.$s-8;
+	padding-bottom: sizing.$s-8;
 	h2 {
 		font-family: fonts.$accent-font;
 		color: colors.$green;
@@ -25,7 +24,9 @@ section.essential {
 		font-family: fonts.$main-font;
 		font-weight: 500;
 		font-size: typography.$text-xl;
-		width: sizing.$s-md;
+		max-width: sizing.$s-md;
+		width: 100%;
+
 
 		summary {
 			font-size: typography.$text-2xl;

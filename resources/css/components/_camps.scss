@@ -3,10 +3,10 @@
 @use "../fonts";
 @use "../typography";
 
+
 section.camps {
 	width: 100%;
-	background: linear-gradient(0deg, #D9D0C2 0%, #D9D0C2 100%), url('topography.png') lightgray 0% 0% / 100px 100px repeat;
-	background-blend-mode: multiply, normal;
+	background: url("../../../public/textures/wood.jpg") 400px/400px  repeat;
 		
 		color: colors.$black;
 		padding-left: sizing.$s-8;
@@ -14,7 +14,7 @@ section.camps {
 		padding-bottom: sizing.$s-8;
 	h2 {
 		font-family: fonts.$accent-font;
-		color: colors.$red;
+		color: colors.$green;
 		text-align: center;
 		font-size: typography.$text-6xl;
 		padding: sizing.$s-8 0;
@@ -38,12 +38,12 @@ section.camps {
 				width: sizing.$s-28;
 				height: sizing.$s-28;
 				object-fit: cover;
-				background-color: colors.$red;
+				background-color: colors.$green;
 				margin-left: auto;
 				margin-right: auto;
 				margin-bottom: sizing.$s-2;
 				border-radius: 1000px;
-				border: 2px solid colors.$red;
+				border: 2px solid colors.$green;
 			}
 			div.images {
 				display: flex;
@@ -54,13 +54,14 @@ section.camps {
 				font-family: fonts.$accent-font;
 				font-size: typography.$text-3xl;
 				color: colors.$green;
+				line-height: 100%;
 			}
 			p {
 				font-family: fonts.$main-font;
 				font-size: typography.$text-base;
 				max-width: 100%;
 				font-weight: 600;
-				// line-height: typography.$lh-base;
+				line-height: typography.$lh-sm;
 			}
 		}
 	}
