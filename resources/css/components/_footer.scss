@@ -16,6 +16,7 @@ footer {
 		max-width: sizing.$s-md;
 	}
 	h3 a img {
-		max-width: sizing.$s-sm;
+		width: sizing.$s-sm;
+		max-width: 100%;
 	}
 }
