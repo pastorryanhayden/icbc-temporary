@@ -1,0 +1,35 @@
+@use "../colors";
+@use "../sizing";
+@use "../fonts";
+@use "../typography";
+
+section.essential {
+	width: 100%;
+	background-color: colors.$base;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		
+		color: colors.$black;
+		padding-left: sizing.$s-8;
+		padding-right: sizing.$s-8;
+		padding-bottom: sizing.$s-8;
+	h2 {
+		font-family: fonts.$accent-font;
+		color: colors.$green;
+		text-align: center;
+		font-size: typography.$text-6xl;
+		padding: sizing.$s-8 0;
+	}
+	details {
+		font-family: fonts.$main-font;
+		font-weight: 500;
+		font-size: typography.$text-xl;
+
+		summary {
+			font-size: typography.$text-2xl;
+		}
+
+	}
+	
+	}
