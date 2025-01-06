@@ -1,4 +1,4 @@
-<section class="hero" >
+<section class="hero">
   <div class="text">
              <h1>
                 <img src="/logo-clipped.png" alt="Indian Creek Baptist Camp Logo" />

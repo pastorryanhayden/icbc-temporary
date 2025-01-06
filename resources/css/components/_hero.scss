@@ -1,11 +1,15 @@
 @use "../colors";
 @use "../sizing";
+@use "../fonts";
+@use "../typography";
 
 section.hero {
 	width: 100%;
 	max-width: 100%;
 	overflow-x: hidden;
-	background-color: colors.$grey-950;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../public/background.jpg"); 
+  background-size: cover;
+  background-position: bottom;  
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
@@ -41,16 +45,18 @@ section.hero {
  			}
  		}
  		p {
- 			color: colors.$white;
+ 			color: colors.$white !important;
  			text-align: center;
  			display: inline-flex;
+ 			font-family: fonts.$main-font;
+ 			font-size: typography.$text-2xl;
  			align-items: center;
  			justify-content: center;
  			width: 100%;
  			svg {
  				margin-right: sizing.$s-2;
- 				height: sizing.$s-4;
- 				width: sizing.$s-4;
+ 				height: sizing.$s-6;
+ 				width: sizing.$s-6;
  			}
  		}
  	}
