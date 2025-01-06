@@ -4,7 +4,7 @@
             <summary style="
     margin-bottom: -2px;">Code of Conduct</summary>
             <div class="answer">
-              <p><a href="/coc.pdf" target="_blank" class="download"><x-tabler-download />Counselor Info PDF</a></p>
+              <p><a href="/coc.pdf" target="_blank" class="download"><x-tabler-download />Code of Conduct PDF</a></p>
         </div>
 
         </details>
