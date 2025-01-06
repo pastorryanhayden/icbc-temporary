@@ -49,6 +49,9 @@ section.camps {
 				display: flex;
 				justify-content: center;
 				max-width: 100%;
+				img:first-child {
+					margin-right: -25px;
+				}
 			}
 			h3 {
 				font-family: fonts.$accent-font;
